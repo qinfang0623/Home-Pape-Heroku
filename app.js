@@ -16,7 +16,7 @@ app.get("/", function(req, res) {
   res.sendFile(__dirname + "/index.html");
 
   const query = "Melbourne";
-  const apiKey = "5df4c7f070169bd54d36cd8336f6fadf";
+  const apiKey = "5df4c7f0EXAMPLE54d36cd8336f6fadf";
   const units = "metric";
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${apiKey}&units=${units}`;
 
